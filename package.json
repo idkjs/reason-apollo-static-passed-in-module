@@ -1,0 +1,22 @@
+{
+  "name": "reason-apollo-static-passed-in-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Using Apollo client 2 with Reason",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idkjs/reason-apollo"
+  },
+  "scripts": {
+    "test:ci": "bsb -make-world",
+    "prepare": "npm link bs-platform"
+  },
+  "peerDependencies": {
+    "apollo-cache-inmemory": "^1.1.12",
+    "apollo-link-http": "^1.5.4"
+  },
+  "keywords": ["Reason", "Apollo", "React", "GraphQL"],
+  "devDependencies": {
+    "reason-react": "^0.3.4"
+  }
+}

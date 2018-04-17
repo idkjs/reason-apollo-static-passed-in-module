@@ -1,0 +1,6 @@
+{
+  "name": "reason-apollo-static-passed-in-module",
+  "sources": ["src", "src/graphql-types"],
+  "bs-dependencies": ["reason-react"],
+  "refmt": 3
+}
